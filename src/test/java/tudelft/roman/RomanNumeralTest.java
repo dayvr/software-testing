@@ -15,9 +15,9 @@ public class RomanNumeralTest {
 
     @Test
     public void numberWithManyDigits() {
-        RomanNumeral roman = new RomanNumeral();
-        int result = roman.convert("VIII");
-        Assertions.assertEquals(8, result);
+        RomanNumeral roman = new RomanNumeral(); // Instantiating the class under test
+        int result = roman.convert("VIII"); // Executing the method under test
+        Assertions.assertEquals(8, result); // Verifying the result
     }
 
     @Test
